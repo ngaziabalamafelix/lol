@@ -1,0 +1,14 @@
+
+public class ListNombreImpair {
+   public static void main(String[] args){
+       Scanner ng= new Scanner(System.in);
+       System.out.println("entrez un entier: ");
+        int n=ng.nextInt();
+        for(int i=n;i>=1;i--){
+       if(i%2==1){
+       System.out.print(i+";");}
+       else {  }
+       }
+    System.out.println("");
+}
+       }
